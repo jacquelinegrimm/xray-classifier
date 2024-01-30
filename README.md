@@ -23,4 +23,4 @@ The model was trained to classify chest X-rays into three classes:
 
 1. Use `chest-x-ray-classification-vit.ipynb` to train the classification model.
 2. `app.py` contains code for deploying a demo using Gradio for easy testing and visualization.
-3. Check out the in-progress demo at [HuggingFace Spaces](https://huggingface.co/spaces/jacquelinegrimm/xray-classifier). Please note that this is a work in progress and should not be used for medical decision-making.
+3. Check out the in-progress demo at [HuggingFace Spaces](https://huggingface.co/spaces/jacquelinegrimm/xray-classifier). Please note that this is a demo and should not be used for diagnosis.
