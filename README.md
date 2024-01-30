@@ -5,7 +5,6 @@ This repository contains resources to train a model for classifying chest X-rays
 ## Files
 
 - `chest-x-ray-classification-vit.ipynb`: Jupyter Notebook for training the classification model.
-- `chest-x-ray-practice-segmentation.ipynb`: A draft Jupyter Notebook for image segmentation. Not integrated into the current model version.
 - `app.py`: Code for deploying a demo using Gradio.
 
 ## Dataset
