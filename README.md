@@ -13,13 +13,15 @@ The model is based on the `vit_base_patch16_224.orig_in21k` architecture and fin
 
 ### Classes
 
-The model was trained to classify chest X-rays into three classes:
+The model was trained to classify chest X-rays into five classes:
 1. Normal
 2. Pneumonia
-3. Obstructive Pulmonary Disease
+3. Obstructive Pulmonary Disease (emphysema, bronchopneumonia, bronchiectasis, embolism)
+4. Degenerative Infectious Disease (tuberculosis, sarcoidosis, proteinosis, fibrosis)
+5. Mediastinal Anomalies (pericarditis, arteriovenous malformations, lymph node enlargement)
 
 ## Usage
 
 1. Use `chest-x-ray-classification-vit.ipynb` to train the classification model.
 2. `app.py` contains code for deploying a demo using Gradio for easy testing and visualization.
-3. Check out the in-progress demo at [HuggingFace Spaces](https://huggingface.co/spaces/jacquelinegrimm/xray-classifier). Please note that this is a demo and should not be used for diagnosis.
+3. Check out the in-progress demo at [HuggingFace Spaces](https://huggingface.co/spaces/jacquelinegrimm/xray-classifier).
